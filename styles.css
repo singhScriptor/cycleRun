@@ -2225,80 +2225,62 @@
   }
 
 /* Footer Styling */
-footer {
-    width: 100%;
-   
-    padding: 5px 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative; /* Changed to relative */
-    bottom: 0;
+.footer {
+  width: 100%;
+  padding: 5px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative; /* Changed to relative */
+  bottom: 0;
 }
 
 .footer-content {
-    display: flex;
-    flex-direction: column; /* Column direction for better centering */
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    max-width: 1200px;
-    width: 100%;
+  display: flex;
+  flex-direction: row; /* Column direction for better centering */
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  max-width: 1200px;
+  width: 100%;
 }
 
 .footer-content p {
-    margin: 0;
-    padding-bottom: 10px; /* Add some space between text and icons */
+  margin: 20px;
 }
 
 .footer-content .social-links {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px; /* Space between social icons */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; /* Space between social icons */
 }
 
 .footer-content a {
-    color: black;
-    text-decoration: none;
-    font-size: 24px;
+  color: black;
+  text-decoration: none;
+  font-size: 24px;
 }
 
-/* Responsive Styles */
-@media screen and (max-width: 600px) {
-    .footer-content {
-        padding: 10px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center; /* Ensures text is centered */
-    }
+/* Responsive adjustments for small screens */
+@media (max-width: 480px) {
+  .footer-content {
+    flex-direction: column;
+  }
 
-    .footer-content .social-links {
-        display: flex;
-        gap: 10px;
-        flex-direction: row; 
-        justify-content: center; 
-    }
+  .footer-content p {
+    font-size: 14px; /* Reduced size for small screens */
+  }
 
-    .footer-content a {
-        font-size: 20px; /* Adjust icon size for smaller screens */
-    }
+  .footer-content .social-links {
+    gap: 10px; /* Reduced gap for small screens */
+  }
+
+  .footer-content a {
+    font-size: 18px; /* Reduced size for social icons */
+  }
 }
 
 
-@media screen and (min-width: 1024px) {
-    .footer-content {
-        flex-direction: row; /* Change to row on large screens */
-        justify-content: space-between; /* Spread items across the footer */
-    }
 
-    .footer-content p {
-        text-align: left; /* Align text to the left */
-    }
-
-    .footer-content .social-links {
-        justify-content: flex-end; /* Align social links to the right */
-    }
-}
 
