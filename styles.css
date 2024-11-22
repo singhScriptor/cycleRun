@@ -1,10 +1,10 @@
 .bike {
-    width: 800px; height: 500px;
+    width: 800px; height: 100vh;
     margin: auto;
     position: relative;
     background: #42B0CE;
     overflow: hidden;
-  }
+}
     .bike *, .bike *::before, .bike *::after {
       position: absolute;
       content: '';
@@ -1086,7 +1086,7 @@
     25% { transform: rotate(-187deg); }
     30% { transform: rotate(-213deg); }
     35% { transform: rotate(-233deg); }
-    40% { transform: rotate(-253deg); }
+    40% { transform: rotate(-253deg); -webkit-transform: rotate(-253deg); -moz-transform: rotate(-253deg); -ms-transform: rotate(-253deg); -o-transform: rotate(-253deg); }
     45% { transform: rotate(-273deg); }
     50% { transform: rotate(-293deg); }
     55% { transform: rotate(-303deg); }
@@ -2301,3 +2301,4 @@ footer {
         justify-content: flex-end; /* Align social links to the right */
     }
 }
+
