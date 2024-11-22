@@ -4,7 +4,7 @@
 Cycle Run is a fun, animated project where a person is seen cycling through a moving cloud scene. This project is entirely designed using HTML and CSS, with no additional resource files or external images used.
 
 ## Project Demo
-Check out the live demo [here](https://singhscriptor.github.io/cycleRun/).
+Check out the live demo [Click here](https://singhscriptor.github.io/cycleRun/).
 
 ## Features
 - **Animated Cyclist**: The cyclist's wheels rotate as if they are moving.
