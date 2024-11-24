@@ -14,11 +14,10 @@ Check out the live demo [Click here](https://singhscriptor.github.io/cycleRun/).
 ## Installation
 To clone and run this application, you'll need [Git](https://git-scm.com). From your command line:
 
+
+## Clone repository
 ```bash
-# Clone this repository
-$ git clone https://github.com/singhScriptor/cycleRun.git
+git clone https://github.com/singhScriptor/cycleRun.git
 
-# Go into the repository
-$ cd cycleRun
 
-# Open the index.html file in your browser
+
